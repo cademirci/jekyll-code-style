@@ -57,7 +57,7 @@ pre.highlight,
     }
 }
 
-pre::before {
+pre::before { /* language name */
     content: attr(data-before);
     margin-top: -15px;
     font-weight: bold;
