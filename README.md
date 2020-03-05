@@ -22,9 +22,11 @@ In order for ghost-code run properly, code blocks must implemented in the Markdo
 
 Or one tab shifted as a block.
 
+```
 <TAB>--code line--
 <TAB>--code line--
 <TAB>...
+```
 
 If the second is chosen, code runs properly but any language name does not appear in the code block. First is recommended.
 
@@ -36,10 +38,10 @@ I have not written any code for Jekyll `Liquid` highlighter syntax. That will do
 {% endhighlight %}
 ```
 
-## What Does the Ghost do?
+## What Does Ghostcode Do?
 
 1. Puts line numbers and programming language name on blocks inside ` ``` ` marks. If the language is terminal (bash), puts `$` signs instead of numbers.
-2. Reads the page colors, then generates one color for block background and one for line numbers. If platform background is dark, block background be generated a little lighter, otherwise darker.
+2. Reads the page colors, then generates one color for block background and one for line numbers and comment lines. If platform background is dark, block background be generated a little lighter, otherwise darker.
 3. Sets appropriate paddings, margins, font family (Source Code Pro), smooth corners and other properties for `code` and `pre` if they are default.
 4. Adjusts inline codes as styled white on black.
 
