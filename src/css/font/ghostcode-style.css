@@ -1,0 +1,87 @@
+/*
+    The stylesheet for the javascript regulator for Rouge markdown-generated pre & code blocks, ghostcode.js
+    Feel free to customize.
+
+
+    Author: Caglayan Demirci
+    GitHub: cademirci
+*/
+code { color: ghostwhite; }
+body {
+    background: #253a73;
+    color: ghostwhite;
+}
+
+pre.highlight,
+.markdown-body pre.highlight {
+    border: 1px solid #666;
+    padding: 25px 10px;
+    margin: 25px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+
+    /* TAB character be 4 whitespaces wide. */
+    tab-size: 4;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+	/* code lines do not outflow from code blocks */
+	white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+/* for phone screens */
+@media only screen and (max-width: 800px) {
+    pre.highlight,
+    .markdown-body pre.highlight {
+        tab-size: 2;
+        -moz-tab-size: 2;
+        -o-tab-size: 2;
+        tab-size: 2;
+
+        font-size: 0.8em;
+    }
+}
+
+pre::before {
+    content: attr(data-before);
+    margin-top: -15px;
+    font-weight: bold;
+    float: right;
+}
+
+code {
+    font-family: Source_Code_Pro, monospace;
+} @font-face {
+	font-family: Source_Code_Pro;
+	src: url(font/SourceCodePro-Regular.ttf);
+}
+
+code { /* iniline codes */
+    padding: 0 3px;
+    background: #1a1a1a;
+    border: 1px solid #666;
+    border-radius: 3px;
+    font-size: .9em;
+}
+
+/* neutralizing inline code features for code blocks */
+pre.highlight code,
+figure.highlight code {
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    border: none;
+    background: none;
+}
+figure.highlight pre {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* line numbers cannot be selected */
+span.ln {
+    user-select: none;
+}
