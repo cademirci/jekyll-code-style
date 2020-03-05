@@ -39,7 +39,7 @@ I have not written any code for Jekyll `Liquid` highlighter syntax. That will do
 ## What Does the Ghost do?
 
 1. Puts line numbers and programming language name on blocks inside ` ``` ` marks. If the language is terminal (bash), puts `$` signs instead of numbers.
-2. Reads the page colors, then generates one color for block background and one for line numbers. If platform background is dark, block background be generated a little lighter, otherwise darker. This is a bit different from decreasing opacity: Code font colors remain solid and solid is bg color, too.
+2. Reads the page colors, then generates one color for block background and one for line numbers. If platform background is dark, block background be generated a little lighter, otherwise darker.
 3. Sets appropriate paddings, margins, font family (Source Code Pro), smooth corners and other properties for `code` and `pre` if they are default.
 4. Adjusts inline codes as styled white on black.
 
@@ -51,16 +51,16 @@ After ghostcode runs on the page:
 
 ![](screenshots/image2.png)
 
-- Ghostcode does not force the user's code and pre colors to change if they already exist, except comment lines. Feel free to use any Syntax highlighter. I am sorry for the comment lines.
+- Ghostcode does not force the user's `code` and `pre` colors to change if they are already set, except comment lines. Feel free to use any Syntax highlighter. I am sorry for the comment lines.
 
 For instance, if user sets their page background be navy blue, ghostcode generates a shape of blue, concurrently.
 
 ![](screenshots/image3.png)
 
-Lastly, in ghostcode-style.css, there are some lines insite comment marks. According to the user's will, it can be activated in order for terminal blocks to be ghostwhite on soft black, like a real bash window.
+Lastly, there are some lines inside comment marks in `ghostcode-style.css`. Those codes can be activated at the user's will in order for terminal blocks to be ghostwhite-text on soft black background, like a real bash window.
 
 ![](screenshots/image4.png)
 
 
 
-Feel free to inform me about any bugs, suggestions or anything like that.
+Feel free to inform me about any bugs, suggestions etc.
