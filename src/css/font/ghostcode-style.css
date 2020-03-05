@@ -7,8 +7,20 @@
     GitHub: cademirci
 */
 code { color: ghostwhite; }
+
+
+
+/*  I left this code for users to activate if they want:
+    a smooth black terminal block like a real bash window.
+
+.language-terminal pre {
+    background: #1a1a1a;
+    color: ghostwhite;
+}
+*/
+
 body {
-    background: #253a73;
+    background: #2a2a2a;
     color: ghostwhite;
 }
 
