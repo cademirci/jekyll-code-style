@@ -44,15 +44,23 @@ I have not written any code for Jekyll `Liquid` highlighter syntax. That will do
 4. Adjusts inline codes as styled white on black.
 
 A default HTML page and some code blocks on it:
+
 ![](screenshots/image1.png)
 
 After ghostcode runs on the page:
+
 ![](screenshots/image2.png)
 
 - Ghostcode does not force the user's code and pre colors to change if they already exist, except comment lines. Feel free to use any Syntax highlighter. I am sorry for the comment lines.
 
 For instance, if user sets their page background be navy blue, ghostcode generates a shape of blue, concurrently.
+
 ![](screenshots/image3.png)
 
 Lastly, in ghostcode-style.css, there are some lines insite comment marks. According to the user's will, it can be activated in order for terminal blocks to be ghostwhite on soft black, like a real bash window.
-![](screenshots/image2.png)
+
+![](screenshots/image4.png)
+
+
+
+Feel free to inform me about any bugs, suggestions or anything like that.
