@@ -57,6 +57,12 @@ For instance, if user sets their page background be navy blue, ghostcode generat
 
 ![](screenshots/image3.png)
 
+- Does not put numbers when the number of lines less then 6.
+- Numbers and language name are unselectable and do not disturb any space or indentation.
+- Does not use any opacity or transparency, protects text color.
+- Inline code and multiline code are completely separated.
+- Css file is basic and commented. Easy to customize.
+
 Lastly, there are some lines inside comment marks in `ghostcode-style.css`. Those codes can be activated at the user's will in order for terminal blocks to be ghostwhite-text on soft black background, like a real bash window.
 
 ![](screenshots/image4.png)
