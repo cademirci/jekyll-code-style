@@ -16,7 +16,8 @@
     GitHub: cademirci
 */
 
-window.onload = function() {
+
+window.addEventListener('load', () => {
     var codeBlocks = document.querySelectorAll("pre.highlight");
 
     putElements(codeBlocks);
