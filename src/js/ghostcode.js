@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
 
     putElements(codeBlocks);
     setColors(codeBlocks);
-}
+})
 
 // ================================================================ put elements and relative
 function putElements(codeBlocks) {
