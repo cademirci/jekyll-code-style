@@ -7,11 +7,12 @@ Name *ghost* does not stand for *hidden* or *mysterious* or anything like that. 
 
 ## Usage
 
-This code is basically two files and a true type font directory. Put `ghostcode.js`, `gostcode_style.css` and directory `font` on your suitable assets directories and bind them into Jekyll `<head>` tags. Font directory and css file must be in the same directory.
+This code is basically two files and a true type font directory. Put `PutCodeElements.js`, `SetCodeColors.js` and `gostcode_style.css` and directory `font` on your suitable assets directories and bind them into Jekyll `<head>` tags. Font directory and css file must be in the same directory. *for more information, check header Addition*.
 
 ```html
 <link rel="stylesheet" href="{{ "YOUR_PATH/ghostcode-style.css" }}">
-<script type="text/javascript" src='{{ "YOUR_PATH/ghostcode.js" }}'></script>
+<script type="text/javascript" src='{{ "YOUR_PATH/PutCodeElements.js" }}'></script>
+<script type="text/javascript" src='{{ "YOUR_PATH/SetCodeColors.js" }}'></script>
 ```
 
 In order for ghost-code run properly, code blocks must implemented in the Markdown file as given below:
@@ -72,3 +73,15 @@ Lastly, there are some lines inside comment marks in `ghostcode-style.css`. Thos
 
 
 Feel free to inform me about any bugs, suggestions etc.
+
+## Addition 
+
+There is an update for the code. Adjusting soft colors according to the background colors is a good thing, moreover the code itself named after it. However even I do not use it on my personal website; I wrote my own code block theme and syntax highlighting for Jekyll pages for myself, it is `ghost-theme.css`. I put them into github now. To use them, do not use `SetCodeColors.js` and `ghostcode-style.css`. Instead, the usage is given below. I algo suggest to use a monospace font `Roboto Mono`, its link is there below, too. 
+
+```html
+<head>
+<link rel="stylesheet" href="{{ 'YOUR_PATH/ghost-theme.css' }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"> 
+<script type="text/javascript" src="{{ 'YOUR_PATH/PutCodeElements.js' }}"></script>
+</head>
+```
