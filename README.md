@@ -76,7 +76,7 @@ Feel free to inform me about any bugs, suggestions etc.
 
 ## Addition 
 
-There is an update for the code. Adjusting soft colors according to the background colors is a good thing, moreover the code itself named after it. However even I do not use it on my personal website; I wrote my own code block theme and syntax highlighting for Jekyll pages for myself, it is `ghost-theme.css`. I put them into github now. To use them, do not use `SetCodeColors.js` and `ghostcode-style.css`. Instead, the usage is given below. I algo suggest to use a monospace font `Roboto Mono`, its link is there below, too. 
+There is an update for the code. Adjusting soft colors according to the background colors is a good thing, moreover the code itself named after it. However I added another option; I wrote my own code block theme and syntax highlighting for Jekyll pages for myself, it is `ghost-theme.css`. I put them here now. To use them, do not use `SetCodeColors.js` and `ghostcode-style.css`. Instead, use `putCodeElements.js` and `ghost-theme.css`. I algo suggest to use a monospace font `Roboto Mono`, its link is there below, too. 
 
 ```html
 <head>
