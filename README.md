@@ -1,5 +1,5 @@
 # ghost-code
-A regulator for Jekyll webpage code blocks written in Javascript.
+A regulator for Jekyll webpage code blocks written in JavaScript.
 
 It is essential for a blog page that focuses on software to have stylish, pro-looking code blocks. Some evening I thought I could write one for myself, instead all bootstraps, templates and themes.
 
