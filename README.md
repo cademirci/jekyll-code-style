@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # jekyll-code-style
-=======
-# ghost-code
-A regulator for Jekyll webpage code blocks written in JavaScript.
->>>>>>> 686f8c541b73dc5c3d626bb3b1630803a327f7d1
 
 [Jekyll](https://jekyllrb.com/) is a static site generator Ruby framework. A Jekyll webpage can be hosted on GitHub Pages, and Markdown structure and GitHub Pages does not have a default theme for the code blocks in a page that have line numbers and language names. Unless you do not use any Jekyll theme which is written by a designer.
 
