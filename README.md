@@ -49,13 +49,13 @@ I have not written any code for Jekyll's `Liquid` highlighter syntax. My code **
 {% endhighlight %}
 ```
 
-***
-
-Feel free to inform me about any bugs, suggestions etc.
-
 ### Screenshots
 
 ![](screenshots/image5.png)
 ![](screenshots/image6.png)
 ![](screenshots/image7.png)
 ![](screenshots/image8.png)
+
+***
+
+Feel free to inform me about any bugs, suggestions etc.
