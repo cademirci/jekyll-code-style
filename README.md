@@ -53,23 +53,9 @@ I have not written any code for Jekyll's `Liquid` highlighter syntax. My code **
 
 Feel free to inform me about any bugs, suggestions etc.
 
-<<<<<<< HEAD
 ### Screenshots
 
 ![](screenshots/image5.png)
 ![](screenshots/image6.png)
 ![](screenshots/image7.png)
 ![](screenshots/image8.png)
-=======
-## Addition 
-
-There is an update for the code. Adjusting soft colors according to the background colors is a good thing, moreover the code itself named after it. However I added another option; I wrote my own code block theme and syntax highlighting for Jekyll pages for myself, it is `ghost-theme.css`. I just put them here. To use this option, set only `putCodeElements.js` and `ghost-theme.css` in your `<head>`, and delete `SetCodeColors.js` and `ghostcode-style.css`. I algo suggest to use a monospace font `Roboto Mono`, its link is there below, too.
-
-```html
-<head>
-<link rel="stylesheet" href="{{ 'YOUR_PATH/ghost-theme.css' }}">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"> 
-<script type="text/javascript" src="{{ 'YOUR_PATH/PutCodeElements.js' }}"></script>
-</head>
-```
->>>>>>> 686f8c541b73dc5c3d626bb3b1630803a327f7d1
