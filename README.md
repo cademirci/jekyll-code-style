@@ -7,11 +7,10 @@ It is essential, for a blog page that focuses on software, to have stylish and p
 ## What Does jekyll-code-style Do?
 
 1. Puts line numbers and programming language name on blocks inside ` ``` ` marks. If the language is terminal (bash), puts `$` signs instead of numbers.
-2. Reads the page colors, then generates one color for block background and one for line numbers and comment lines. If platform background is dark, block background be generated a little lighter, otherwise darker.
-3. Sets appropriate paddings, margins, font family (Roboto Mono), smooth corners and other properties for `code` and `pre` if they are default.
-4. Adjusts inline codes as styled light pink on black.
+2. Sets appropriate paddings, margins, font family (Roboto Mono), smooth corners and other properties for `code` and `pre` if they are default.
+3. Adjusts inline codes as styled light pink on black.
 
-- Does not put numbers when the number of lines less then 6.
+- Does not put numbers when the number of lines less than 6.
 - Numbers and language name are unselectable and do not disturb any space or indentation.
 - Inline code and multiline code are completely separated.
 - Css file is simple and commented. Easy to customize.
@@ -51,7 +50,6 @@ I have not written any code for Jekyll's `Liquid` highlighter syntax. My code **
 
 ### Screenshots
 
-![](screenshots/image5.png)
 ![](screenshots/image6.png)
 ![](screenshots/image7.png)
 ![](screenshots/image8.png)
